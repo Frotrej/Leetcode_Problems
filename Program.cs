@@ -6,8 +6,8 @@ namespace Leetcode_pomoc
     {
         static void Main()
         {
-            
-            //test change
+			
+
 		}
-    }
+	}
 }
