@@ -6,7 +6,11 @@ namespace Leetcode_pomoc
     {
         static void Main()
         {
-			
+            int[] a = { 0 };
+            int[] b = { 1 };
+
+            MergeSortedArray merge = new MergeSortedArray();
+            merge.MergeSortedArrayMethod(a, 0, b, b.Length);
 
 		}
 	}
