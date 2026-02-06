@@ -6,7 +6,14 @@ namespace Leetcode_pomoc
     {
         static void Main()
         {
-			
+            int[] a = { 3, -2, 1, 1 };
+            TransformedArray ta = new TransformedArray();
+            int[] b = ta.TransformedArrayMethod(a);
+
+            foreach (var item in b)
+            {
+                Console.Write($"{item},");
+			}
 
 		}
 	}
